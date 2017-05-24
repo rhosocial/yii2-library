@@ -1,0 +1,35 @@
+{
+  "name": "rhosocial/yii2-library",
+  "description": "Common library module.",
+  "type": "yii2-extension",
+  "keywords": ["yii2","extension","rho","social","library"],
+  "license": "AGPLv3",
+  "authors": [
+    {
+      "name": "rhosocial",
+      "email": "opensource@dev.rho.social"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "yiisoft/yii2": ">=2.0.11",
+    "yiisoft/yii2-authclient": "*",
+    "rhosocial/helpers": ">=1.0.2",
+    "rhosocial/yii2-base-models": ">=1.0.0",
+    "rhosocial/yii2-user": "dev-master"
+  },
+  "require-dev": {
+    "yiisoft/yii2-faker": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "rhosocial\\library\\": ""
+    }
+  },
+  "repositories":[
+    {
+      "type": "git",
+      "url": "https://github.com/rhosocial/yii2-library"
+    }
+  ]
+}
